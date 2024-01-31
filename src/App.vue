@@ -5,7 +5,7 @@
     <BotaoPrincipal :texto="'Botao 1'" />
     <BotaoPrincipal :texto="'Não clique aqui'" />
     <BotaoPrincipal corDoBotao="blue" corDoTexto="white"/>
-    <BotaoPrincipal corDoBotao="pink" />
+    <BotaoPrincipal corDoBotao="red" />
     <BotaoPrincipal corDoBotao="#a8a632" />
   </div>
 </template>

@@ -4,21 +4,30 @@
 
 <script>
 export default {
+    data(){
+        return {
+            corDoBotao: 'green'
+        }
+    },
+    
     props: {
         texto: {
             type: String,
             default: 'Clique aqui',
         },
-        corDoBotao: {
-            type: String,
-            default: 'white',
-        },
+        
         corDoTexto: {
             type: String,
             default: 'black',
         }
     },
+    methods:{
+        clicou(){
+            this.corDoBotao = 'red'
+        }
+    }
 };
+
 </script>
 
 <style>
